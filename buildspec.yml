@@ -11,4 +11,5 @@ phases:
       - mvn package
 artifacts:
   files:
-    - target/aws-codebuild-maven-1.0-SNAPSHOT.jar
+    - target/aws-codebuild-maven-1.0-SNAPSHOT.war
+  discard-paths: yes
