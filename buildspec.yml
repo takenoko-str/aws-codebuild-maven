@@ -9,7 +9,7 @@ phases:
     commands:
       - echo Build completed on `date`
       - mvn install
-        #artifacts:
-        #  files:
-        #    - target/aws-codebuild-maven-1.0-SNAPSHOT.war
-        #  discard-paths: yes
+    artifacts:
+      files:
+        - target/aws-codebuild-maven-1.0-SNAPSHOT.war
+      discard-paths: yes
