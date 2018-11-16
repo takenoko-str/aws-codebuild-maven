@@ -11,6 +11,4 @@ phases:
       - mvn install
     artifacts:
       files:
-        - aws-codebuild-maven.war
-      base-directory: target
-      discard-paths: yes
+        - target/aws-codebuild-maven.war
