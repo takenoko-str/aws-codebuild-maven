@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example</groupId>
-  <artifactId>.aws-codebuild-maven</artifactId>
+  <artifactId>aws-codebuild-maven</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>.aws-codebuild-maven Maven Webapp</name>
+  <name>aws-codebuild-maven Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -16,6 +16,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>.aws-codebuild-maven</finalName>
+    <finalName>aws-codebuild-maven</finalName>
   </build>
 </project>
