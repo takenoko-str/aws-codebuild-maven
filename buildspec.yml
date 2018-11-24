@@ -12,3 +12,4 @@ phases:
 artifacts:
   files:
     - target/aws-codebuild-maven.war
+    - appspec.yml
