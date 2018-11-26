@@ -14,3 +14,4 @@ artifacts:
   files:
     - target/aws-codebuild-maven.war
     - appspec.yml
+    - deploy.sh
