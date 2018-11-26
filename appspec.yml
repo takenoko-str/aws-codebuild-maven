@@ -7,3 +7,6 @@ permissions:
   - object: /var/www/html
     owner: www-data
     group: www-data
+hooks:
+  ApplicationStart:
+    - location: deploy.sh
