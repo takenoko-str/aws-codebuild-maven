@@ -10,6 +10,7 @@ phases:
       - echo Build completed on `date`
       - mvn install
 artifacts:
+  type: zip
   files:
     - target/aws-codebuild-maven.war
     - appspec.yml
